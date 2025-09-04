@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8c36b2469117540a532af704713cb2, type: 3}
+  m_Name: TD_Turret4
+  m_EditorClassIdentifier: 
+  displayName: Electic Turret
+  price: 12
+  icon: {fileID: 0}
+  placedTurretPrefab: {fileID: 4821743211605290039, guid: 59c3d30fac34f3e4ba83b3fec04b0859, type: 3}
+  carriedPrefab: {fileID: 5590745321393054687, guid: cde014f3bb2ab8c4784e07acc41c6ae7, type: 3}
+  ghostPrefab: {fileID: 0}
+  placeOffset: {x: 0, y: 0, z: 0}
+  placeRotationEuler: {x: 0, y: 0, z: 0}

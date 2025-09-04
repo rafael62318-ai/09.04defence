@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8c36b2469117540a532af704713cb2, type: 3}
+  m_Name: TD_Turret3
+  m_EditorClassIdentifier: 
+  displayName: Laser Turret
+  price: 12
+  icon: {fileID: 0}
+  placedTurretPrefab: {fileID: 1704090412090577414, guid: 1744aa37bf0187447a8a6b8b6743a070, type: 3}
+  carriedPrefab: {fileID: 2168530241425548206, guid: 85c042e784b09b74782d06d75b519549, type: 3}
+  ghostPrefab: {fileID: 0}
+  placeOffset: {x: 0, y: 0, z: 0}
+  placeRotationEuler: {x: 0, y: 0, z: 0}

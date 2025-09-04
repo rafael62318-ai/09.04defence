@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8c36b2469117540a532af704713cb2, type: 3}
+  m_Name: TD_Turret1
+  m_EditorClassIdentifier: 
+  displayName: Cannon Turret
+  price: 8
+  icon: {fileID: 0}
+  placedTurretPrefab: {fileID: 7351957018225663698, guid: e21df6f470146fd40b1fce76f044a0a6, type: 3}
+  carriedPrefab: {fileID: 9023178432907562080, guid: 5ffbcc9e6dd6b5949ad6d926e2abcf07, type: 3}
+  ghostPrefab: {fileID: 0}
+  placeOffset: {x: 0, y: 0, z: 0}
+  placeRotationEuler: {x: 0, y: 0, z: 0}
