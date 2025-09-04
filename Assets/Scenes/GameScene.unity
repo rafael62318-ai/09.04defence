@@ -1492,7 +1492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2584,7 +2584,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5582418491612883616, guid: 5a246a4ee3cb78947bb90e02bad5ff23, type: 3}
       propertyPath: m_Name
-      value: SP_Ground
+      value: PlacementZone
       objectReference: {fileID: 0}
     - target: {fileID: 8067701064652967986, guid: 5a246a4ee3cb78947bb90e02bad5ff23, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3196,7 +3196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6687216524259712155, guid: c036b0fc2bc0d194f847d952187b145d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7584258976029606708, guid: c036b0fc2bc0d194f847d952187b145d, type: 3}
       propertyPath: m_LocalPosition.x

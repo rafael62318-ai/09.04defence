@@ -51,6 +51,7 @@ public class PlacementZone : MonoBehaviour
     // ===== (선택) 운반용 포탑이 가까이 올 때 하이라이트 표시 =====
     private void OnTriggerEnter(Collider other)
     {
+         Debug.Log($"[PlacementZone] Enter: {other.name}");
         if (!highlightObj) return;
         if (other.GetComponent<CarriedTurret>())
             highlightObj.SetActive(true);
@@ -62,4 +63,5 @@ public class PlacementZone : MonoBehaviour
         if (other.GetComponent<CarriedTurret>())
             highlightObj.SetActive(false);
     }
+    
 }
