@@ -3,9 +3,9 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     // TurretController가 설정해주는 변수들
-    public Transform target;
-    public int damage;
-    public float slowAmount; // 0이면 둔화 없음, 0.5는 50% 둔화
+    [HideInInspector] public Transform target;
+    [HideInInspector] public int damage;
+    [HideInInspector] public float slowAmount; // 0이면 둔화 없음, 0.5는 50% 둔화
 
     [Header("총알 설정")]
     public float speed = 20f;
